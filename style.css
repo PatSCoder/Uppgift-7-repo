@@ -1,0 +1,90 @@
+/* style.css file */
+
+
+body{
+
+  margin: 0;  
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+.main{
+
+  position: absolute;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+
+img{
+
+  position: absolute;
+  top: 60px;
+  left: 100px;  
+  border-radius: 50%;
+  filter: grayscale(100%);
+}
+
+
+
+header{
+  
+  padding: 25px;
+  text-align: center;
+  background: lightgray;
+}
+
+header h1{
+
+  font-size: 30px;
+}
+
+nav{
+
+  text-align: center;
+}
+
+ul#nav{
+
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  
+}
+
+ul#nav li{
+
+  display: inline;
+ 
+}
+
+ul#nav a{
+
+  margin-right: 10px;  
+  background-color: lightgray;
+  color:lightslategray;
+  padding: 5px 10px;
+  text-decoration: none;
+  
+}
+
+ul#nav a:hover{
+
+  color: black;
+  background-color: grey;
+}
+
+
+
+
+
+
+
+
+footer{
+
+  background-color: lightgray;
+  margin: 0;
+ 
+}
